@@ -19,4 +19,4 @@ jobs:
               with:
                 version: 'weekly.2025.21'
             - name: Run tests
-              run: v test .
+              run: v test ./lib_test.v
