@@ -17,6 +17,6 @@ jobs:
             - name: Setup V
               uses: vlang/setup-v@v1.4
               with:
-                version: '0.4.10'
+                version: 'weekly.2025.21'
             - name: Run tests
               run: v test .
